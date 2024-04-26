@@ -25,19 +25,24 @@ export default defineComponent({
 .landing-page {
  text-align: center;
  padding: 2rem;
+ padding-top: 60px; 
 }
 
 .navbar {
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
  background-color: #f8f9fa;
  padding: 1rem 0;
- margin-bottom: 2rem;
+ z-index: 1000;
 }
 
 .navbar ul {
  list-style-type: none;
  padding: 0;
  display: flex;
- justify-content: center;
+ justify-content: space-between; 
 }
 
 .navbar li {
