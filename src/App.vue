@@ -1,5 +1,13 @@
 <template>
  <div class="landing-page">
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
     <h1>Nail Treatment</h1>
     <p>Welcome to the SALON for your nails</p>
  </div>
@@ -17,5 +25,31 @@ export default defineComponent({
 .landing-page {
  text-align: center;
  padding: 2rem;
+}
+
+.navbar {
+ background-color: #f8f9fa;
+ padding: 1rem 0;
+ margin-bottom: 2rem;
+}
+
+.navbar ul {
+ list-style-type: none;
+ padding: 0;
+ display: flex;
+ justify-content: center;
+}
+
+.navbar li {
+ margin: 0 1rem;
+}
+
+.navbar a {
+ text-decoration: none;
+ color: #333;
+}
+
+.navbar a:hover {
+ color: #007bff;
 }
 </style>
