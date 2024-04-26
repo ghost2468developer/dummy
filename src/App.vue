@@ -10,7 +10,7 @@
     </nav>
     <div class="hero-section">
       <div class="hero-image">
-        <img src="path/to/your/image.jpg" alt="Hero Image">
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.iconfinder.com%2Ficons%2F282803%2Fpython_logo_icon&psig=AOvVaw3t5-AsAt0wGs-9YDGsnLaf&ust=1714248909164000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCICq4_vY4IUDFQAAAAAdAAAAABAE" alt="Hero Image">
       </div>
       <div class="hero-text">
         <p>Welcome to the SALON for your nails. We offer a wide range of services to enhance your nail experience.</p>
